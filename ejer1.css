@@ -1,0 +1,273 @@
+body{
+    background-color: aliceblue;
+}
+.border{
+    border:3px solid fuchsia;
+    background-color: rgb(39, 191, 211);
+    margin: 1%;
+}
+.encabezado{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+@media screen and (max-width:300px){
+    body{
+        background-color: yellow;
+    }
+    h1{
+        color: rgb(231, 21, 21);
+    }
+    .sm-1{
+        width: 8,333%;
+    }
+    .sm-2{
+        width: 16,666%;
+    }
+    .sm-3{
+        width: 25%;
+    }
+    .sm-4{
+        width: 33,333%;
+    }
+    .sm-5{
+        width: 41,666%;
+    }
+    .sm-6{
+        width: 50%;
+    }
+    .sm-7{
+        width: 58,333%;
+    }
+    .sm-8{
+        width: 66,666%;
+    }
+    .sm-9{
+        width: 75%;
+    }
+    .sm-10{
+        width: 83,333%;
+    }
+    .sm-11{
+        width: 91,666;
+    }
+    .sm-12{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:301px) and (max-width: 600px){
+    body{
+        background-color: blue;
+    }
+
+    h1{
+        color: rgb(21, 189, 231);
+    }
+    .p2-1{
+        width: 8,333%;
+    }
+    .p2-2{
+        width: 16,666%;
+    }
+    .p2-3{
+        width: 25%;
+    }
+    .p2-4{
+        width: 33,333%;
+    }
+    .p2-5{
+        width: 41,666%;
+    }
+    .p2-6{
+        width: 50%;
+    }
+    .p2-7{
+        width: 58,333%;
+    }
+    .p2-8{
+        width: 66,666%;
+    }
+    .p2-9{
+        width: 75%;
+    }
+    .p2-10{
+        width: 83,333%;
+    }
+    .p2-11{
+        width: 91,666;
+    }
+    .p2-12{
+        width: 100%;
+    }
+}
+@media screen and (min-width:601px) and (max-width: 900px){
+    body{
+        background-color: red;
+    }
+    h1{
+        color: rgb(21, 42, 231);
+    }
+    .p3-1{
+        width: 8,333%;
+    }
+    .p3-2{
+        width: 16,666%;
+    }
+    .p3-3{
+        width: 25%;
+    }
+    .p3-4{
+        width: 33,333%;
+    }
+    .p3-5{
+        width: 41,666%;
+    }
+    .p3-6{
+        width: 50%;
+    }
+    .p3-7{
+        width: 58,333%;
+    }
+    .p3-8{
+        width: 66,666%;
+    }
+    .p3-9{
+        width: 75%;
+    }
+    .p3-10{
+        width: 83,333%;
+    }
+    .p3-11{
+        width: 91,666;
+    }
+    .p3-12{
+        width: 100%;
+    }
+}
+@media screen and (min-width:901px) and (max-width: 1200px){
+    body{
+        background-color: violet;
+    }
+    h1{
+        color: rgb(231, 21, 21);
+    }
+    .p4-1{
+        width: 8,333%;
+    }
+    .p4-2{
+        width: 16,666%;
+    }
+    .p4-3{
+        width: 25%;
+    }
+    .p4-4{
+        width: 33,333%;
+    }
+    .p4-5{
+        width: 41,666%;
+    }
+    .p4-6{
+        width: 50%;
+    }
+    .p4-7{
+        width: 58,333%;
+    }
+    .p4-8{
+        width: 66,666%;
+    }
+    .p4-9{
+        width: 75%;
+    }
+    .p4-10{
+        width: 83,333%;
+    }
+    .p4-11{
+        width: 91,666;
+    }
+    .p4-12{
+        width: 100%;
+    }
+}
+@media screen and (min-width:1200px){
+    body{
+        background-color: rgb(255, 133, 249);
+    }
+    h1{
+        color: rgb(231, 21, 21);
+    }
+    .p5-1{
+        width: 8,333%;
+    }
+    .p5-2{
+        width: 16,666%;
+    }
+    .p5-3{
+        width: 25%;
+    }
+    .p5-4{
+        width: 33,333%;
+    }
+    .p5-5{
+        width: 41,666%;
+    }
+    .p5-6{
+        width: 50%;
+    }
+    .p5-7{
+        width: 58,333%;
+    }
+    .p5-8{
+        width: 66,666%;
+    }
+    .p5-9{
+        width: 75%;
+    }
+    .p5-10{
+        width: 83,333%;
+    }
+    .p5-11{
+        width: 91,666;
+    }
+    .p5-12{
+        width: 100%;
+    }
+}
+.imagen{
+    border-radius: 50%;
+    margin-left: 5%;
+}
+.letra{
+    color: white;
+    text-align: center;
+
+}
+.item{
+    list-style: none;
+}
+main{
+    height: 100%;
+    display: flex;
+}
+.contacto{
+    text-align: center;
+    height: 15vh;
+}
+.border2{
+    border:3px solid fuchsia;
+    background-color: rgb(39, 191, 211);
+    margin: 1%;
+
+}
+.desborde{
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+.flexbox{
+    flex-wrap: wrap;
+    display: flex;
+}
+.logo{
+    height: 30vh;
+    width: 30vh;
+}
